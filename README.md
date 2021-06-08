@@ -1,4 +1,10 @@
-# apcupsd_exporter [![Linux Test Status](https://github.com/mdlayher/apcupsd_exporter/workflows/Linux%20Test/badge.svg)](https://github.com/mdlayher/apcupsd_exporter/actions)  [![GoDoc](http://godoc.org/github.com/mdlayher/apcupsd_exporter?status.svg)](http://godoc.org/github.com/mdlayher/apcupsd_exporter)
+# apcupsd_exporter
+
+![License](https://img.shields.io/github/license/OkaeriPoland/apcupsd_exporter)
+![Total lines](https://img.shields.io/tokei/lines/github/OkaeriPoland/apcupsd_exporter)
+![Repo size](https://img.shields.io/github/repo-size/OkaeriPoland/apcupsd_exporter)
+![Contributors](https://img.shields.io/github/contributors/OkaeriPoland/apcupsd_exporter)
+[![Discord](https://img.shields.io/discord/589089838200913930)](https://discord.gg/hASN5eX)
 
 Command `apcupsd_exporter` provides a Prometheus exporter for the
 [apcupsd](http://www.apcupsd.org/) Network Information Server (NIS). MIT
