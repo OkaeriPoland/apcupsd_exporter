@@ -8,7 +8,7 @@ Licensed.
 
 Available flags for `apcupsd_exporter` include:
 
-```
+```console
 $ ./apcupsd_exporter -h
 Usage of ./apcupsd_exporter:
   -apcupsd.addr string
@@ -19,4 +19,10 @@ Usage of ./apcupsd_exporter:
         address for apcupsd exporter (default ":9162")
   -telemetry.path string
         URL path for surfacing collected metrics (default "/metrics")
+```
+
+### Docker
+
+```console
+docker run --name=apcupsd_exporter --network=host okaeri/apcupsd_exporter
 ```
