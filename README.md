@@ -32,5 +32,5 @@ Usage of ./apcupsd_exporter:
 Ready to use image is available through [Docker Hub](https://hub.docker.com/r/okaeri/apcupsd_exporter).
 
 ```console
-docker run --name=apcupsd_exporter --network=host okaeri/apcupsd_exporter
+docker run --name=apcupsd-exporter --network=host okaeri/apcupsd_exporter
 ```
